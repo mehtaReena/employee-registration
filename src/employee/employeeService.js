@@ -10,6 +10,7 @@ export const getDepartmentCollection = () => ([
     { id: '4', title: 'HR' },
 ])
 
+
 export function insertEmployee(data) {
     let employees = getAllEmployees();
     data['id'] = generateEmployeeId()
